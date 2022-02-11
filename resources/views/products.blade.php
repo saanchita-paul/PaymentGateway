@@ -1,6 +1,12 @@
 @extends('layout')
 @section('title', 'Products')
 @section('content')
+<style>
+    img.img-fluid {
+    height: auto;
+    width: 50%;
+}
+</style>
     <div class="container products">
         <div class="row">
             @foreach($products as $product)
